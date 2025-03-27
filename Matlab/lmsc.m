@@ -1,7 +1,7 @@
-function X = lmsc2(X,k,r)
+function X = lmsc(X,k,r)
 %---------------------------------------------------------------------
 % PURPOSE: Perform local MSC, i.e., MSC performed separately on k 
-% disjoint but contingouos spectral segments.
+% disjoint but continguous spectral segments.
 %---------------------------------------------------------------------
 % INPUT
 % [1] X: (m,n) matrix of spectra---each spectrum is aligned row-wise
