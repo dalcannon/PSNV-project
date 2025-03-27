@@ -1,4 +1,4 @@
-function X = MSC2(X,r)
+function X = MSC(X,r)
 %---------------------------------------------------------------------
 % X: (m,n) matrix of spectra---each spectrum is aligned row-wise
 % r: n-vector---reference spectrum 
