@@ -1,0 +1,6 @@
+useDynLib(skeletor, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")
+export(movmeanandstd)
+export(psnv)
+export(funcpp)
