@@ -1,4 +1,4 @@
-function X = psnv3( X, w )
+function X = psnv( X, w )
 %---------------------------------------------------------------------
 % PURPOSE: Perform piecewise SNV, i.e., SNV performed separately on
 % a sliding band centered at the jth wave(length/number)
