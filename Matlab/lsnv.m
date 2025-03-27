@@ -1,4 +1,4 @@
-function X = lsnv2(X,k)
+function X = lsnv(X,k)
 %---------------------------------------------------------------------
 % PURPOSE: Perform local SNV, i.e., SNV performed separately on k 
 % disjoint but contingouos spectral segments.
