@@ -1,4 +1,4 @@
-function Xt = pmsc2( X, w, r )
+function Xt = pmsc( X, w, r )
 %---------------------------------------------------------------------
 % PURPOSE: Perform piecewise MSC, i.e., MSC performed separately on
 % a sliding band centered at the jth wave(length/number)
