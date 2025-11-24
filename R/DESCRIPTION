@@ -1,6 +1,6 @@
 Package: PSNV
 Type: Package
-Title: Piecewise standard normal variate (PSNV)
+Title: Piecewise Standard Normal Variate (PSNV)
 Version: 0.1.0
 Authors@R: c(
     person(
@@ -9,9 +9,11 @@ Authors@R: c(
       role = c("aut", "cre")
     )
   )
-Description: Piecewise standard normal variate (PSNV) and other scatter correction algorithms (Localized SNV, Piecewise MSC, Localizes MSC). 
+Description: Piecewise standard normal variate (PSNV) and other scatter correction algorithms (Localized SNV, Piecewise MSC, Localized MSC). 
 License: `use_mit_license()`
 Encoding: UTF-8
-Imports: Rcpp
+Imports: Rcpp, Rfast
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
 Suggests: pls, mdatools
-LinkingTo: Rcpp
+LinkingTo: Rcpp, RcppEigen

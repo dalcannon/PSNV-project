@@ -1,6 +1,12 @@
-useDynLib(skeletor, .registration=TRUE)
+useDynLib(PSNV, .registration=TRUE)
 importFrom(Rcpp, evalCpp)
 exportPattern("^[[:alpha:]]+")
+export(movmean)
 export(movmeanandstd)
-export(psnv)
-export(funcpp)
+export(movstd)
+export(movsum)
+export(pmsc_cpp)
+
+
+
+
