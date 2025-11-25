@@ -22,4 +22,6 @@ MSC <- function (X, r = colMeans(X)){
   Z <- cbind(1, r)
   B <- t(solve(crossprod(Z), t(X %*% Z)))
   res <- (X - B[, 1])/B[, 2]
+  return(res)
 }
+
