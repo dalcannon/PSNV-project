@@ -53,7 +53,7 @@ function demo( X, wave )
 % 
 % [B3] psnv_simple.m: Piecewise SNV
 % 
-% [B4] mpsnv.m: Moving Piecewise SNV (no loops)
+% [B4] psnv.m: Moving Piecewise SNV (no loops)
 %
 %---------------------------------------------------------------------
 
@@ -170,7 +170,7 @@ Z = struct();
 Z.snv = snv( X );
 Z.lsnv = lsnv( X, k );
 Z.psnv_simple = psnv_simple( X, w );
-Z.mpsnv = mpsnv( X, w );
+Z.psnv = psnv( X, w );
 %
 % Plot spectra
 %
